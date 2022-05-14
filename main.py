@@ -36,7 +36,7 @@ def send_email(receiver, subject, message):
     email.set_content(message)
     server.send_message(email)
 
-
+#Email lists
 email_list = {
     'friend': 'email_id of your friend',
     'bro': '--email here--',
